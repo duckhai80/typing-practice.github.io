@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tencicxdc - Typing Master</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link href="./css/style.css" rel="stylesheet">
+</head>
+<div>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="./images/logo.jpg" height="50">
+				TENCHICXDC
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" 
+				data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#">Teacher: Nguyễn Thanh Tuấn</a>
+					</li>
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Members
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Trần Gia Quyền</a>
+							<a class="dropdown-item" href="#">Trương Đức Khải</a>
+							<a class="dropdown-item" href="#">Nguyễn Trọng Hiếu</a>
+							<a class="dropdown-item" href="#">Đoàn Công Danh</a>
+						</div>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Subject: Tools and Software Development Environment</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Carousel -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<!-- <li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>		
+			<li data-target="#slides" data-slide-to="3"></li> -->
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="./images/keyboard.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">TYPING PRACTICE</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div></div>
+	<!-- jumbotron -->
+	<div class="container">
+		<div class="jumbotron">
+			<div class="">
+				<p class="text-center">Some things are so obvious they can be easily overlooked. As a developer your ability to type quickly and accurately is one factor that influences your development productivity. The objective of the Typing Practice app is to provide you with typing practice along with metrics to allow you to measure your progress. Typing practice displays a word which you must then type within a specific interval of time. If the word is incorrectly typed it stays on screen and the time interval remains the same. But when the word is correctly typed a new word is displayed and the time interval is slightly reduced. Hopefully, this repetitive practice will help you improve both your typing speed and accuracy.</p>
+			</div>
+		</div>
+	</div> 
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">User Stories</h1>
+			</div>
+			<!-- Horizontal Rule -->
+			<hr> 
+			<div class="col-12">
+				<h5>User can see the time interval words must be typed in displayed in the app window.</h5>
+				<h5>User can see the number of successful attempts and the number of total attempts in a score box.</h5>	
+				<h5>User can click a 'Start Practice' button to start the practice session.</h5>	
+				<h5>User can see the prompt word displayed in a text box.</h5>	
+				<h5>User can begin typing the word in a text input box.</h5>	
+				<h5>User can see the letters that have been typed flash if an incorrect letter is entered and the text input box will be cleared.</h5>	
+				<h5>User can see the a message adjacent to the text input box indicating the user should try again if an incorrect letter is entered.</h5>	
+				<h5>User can see the number of total attempts incremented in the score box.</h5>	
+				<h5>User can see a congratulations message if the word is correctly typed.</h5>	
+				<h5>User can see the time interval words must be typed decremented by a small amount if the word is correctly typed.</h5>	
+				<h5>User can see the number of successful attempts incremented in the score box if the word was correctly typed.</h5>	
+				<h5>User can click a 'Stop Practice' button to stop the practice session.</h5>
+			</div>
+			</div>
+		</div>
+		<hr class="my-2">
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">Bonus features</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row padding">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="./images/2.png">
+						<div class="card-body">
+							<h5 class="card-title">
+								User can hear a unique audible tone signalling when a new word is displayed, a word is correctly entered, or an incorrect letter is typed in the word.
+							</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="./images/1.png">
+						<div class="card-body">
+							<h5 class="card-title">
+								User can see cumulative performance statistics across all of his/her practice sessions.
+							</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="./images/3.png">
+						<div class="card-body">
+							<h5 class="card-title">
+								User can login to the app	
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
